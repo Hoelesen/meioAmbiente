@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;}
+
+.box{
+   
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.img11{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.txt-publicidade{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #000000;
+    font-family: sans-serif;
+   
+    }
+    .fundocolor{
+        background-color:rgb(228, 228, 228);
+        
+    }
+    .wrapper {
+
+        max-width: 520px;
+        margin: 0 auto;
+    }
+    
+    .titulo {
+        text-align: center;
+        margin: 60px 0 40px 0;
+        font-size: 1.5em;
+        color: #000000;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .lista-item {
+        background: white;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow: 0 2px 6px rgba(50,50,90,.1);
+    }
+    
+    .faq-titulo {
+        cursor: pointer;
+        padding: 10px;
+        font-size: 1.4em;
+        font-family: monospace;
+        color: #8F6ED5;
+    }
+    
+    .faq-titulo::before {
+        content: '';
+        display: inline-block;
+        height: 12px;
+        width: 24px;
+        margin-right: 10px;
+        background: #BEB0F4;
+    }
+    
+    .faq-titulo::after {
+        content: '+';
+        float: right;
+        transition: transform .3s ease;
+    }
+    
+    .faq-conteudo {
+        padding: 10px;
+        color: #6B7C93;
+        font-family: Helvetica;
+        font-size: .875em;
+        line-height: 1.4em;
+        display: none;
+    }
+    
+    .trigger-input {
+        display: none;
+    }
+    
+    .trigger-input:checked + .trigger-wrapper .faq-conteudo {
+        display: block;
+    }
+    
+    .trigger-input:checked + .trigger-wrapper .faq-titulo::after {
+        transform: rotate(45deg) scale(1.08);
+    }
+    #container{
+        width: 950px;
+        height: 510px;
+        margin: 25px auto;
+        
+    }
+    .principal{
+        width: 950px;
+        height: 510px;
+        border:solid 1px #000;
+        overflow: hidden;
+        }
+    
+    .slide{
+        display: flex;
+        width: 400%;
+        transition: all 0.8s;
+    }
+    label img{
+        width: 237px;
+        cursor: pointer;
+        float: left;
+        opacity: 0.3;
+        transition: all.4s;
+    }
+    #foto2:checked ~ .principal .slide{
+        margin-left: -100%;
+    }
+    #foto3:checked ~ .principal .slide{
+        margin-left: -200%;
+    }
+    #foto4:checked ~ .principal .slide{
+        margin-left: -300%;
+    }
+    input[name = "grupo"]{
+        display: none;
+    }
+    input[name = "grupo"]:checked + label img{
+        opacity: 0.9;
+    }
+    
+    

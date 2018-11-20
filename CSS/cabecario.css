@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+   
+.cabecario{
+    background-color:#B24C63;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 180px;
+   
+}

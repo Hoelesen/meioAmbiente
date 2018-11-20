@@ -1,0 +1,86 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+.pai{
+    padding: 15px;
+    display: flex;
+    width: 1200px;
+    height: 725px
+  
+}
+.filho1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(211, 211, 226);
+    width: 220px;
+    height: 680px;
+    margin-right: 10px;
+    padding-top: 50px;
+    white-space: nowrap;
+  }
+.filho2{
+    display: block;
+    flex-direction:row;
+    width: 960px;
+    height: 740px;
+}
+.txt-humor{
+    margin-left: 30px;
+    color:#000000; 
+    font-size: 30px;
+}
+  #image span.alternativo{
+     display:none;
+  }
+  #image:hover span.alternativo{
+    display:block;
+  }
+  #image span.normal{
+   justify-content: center;
+   padding: 20px;
+   display:block;
+  }
+  #image:hover span.normal{
+     display:none;
+  }
+ul{
+    
+      text-decoration: none;
+      list-style: none;
+  }
+ul li{
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+ul li a{
+    text-decoration: none;
+
+}
+ul li a:hover{
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 25px;
+    background-color:rgb(187, 199, 191);
+    border-radius: 4px;
+     
+    
+}
+.txt-nome{
+color: #000000;;
+font-size: 50px;
+text-transform: uppercase;
+}
+.nome{
+display: flex;
+justify-content: start;
+}
+h1{
+    font-size: 60px;
+}
+    
